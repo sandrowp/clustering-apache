@@ -9,7 +9,7 @@ docker volume create app
 apt-get install nfs-server -y
 
 # exportando o volume
-echo 'index.html /var/lib/docker/volumes/app/_data *(rw,sync,subtree_check)' >> /etc/exports
+echo 'index.html /var/lib/docker/volumes/app/_data *(rw,sync,subtree_check)' > /etc/exports
 exportfs -ar
 
 # Movendo a aplicação para dentro do volume 
