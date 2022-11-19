@@ -1,1 +1,1 @@
-Script para clusterização de uma aplicação Apache virtualizado com VirtualBox no windows utilizando o Vargrant.
+Script para clusterização de uma aplicação Apache virtualizada com VirtualBox no windows utilizando o Vagrant.
